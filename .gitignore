@@ -1,2 +1,4 @@
 *.o
 wrk/main
+*.sh
+Dockerfile
