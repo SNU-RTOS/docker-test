@@ -27,7 +27,11 @@ cd docker-test
 
 2. Docker 개발 환경 실행:
 ```bash
+# Linux/MacOS
 docker run -it -v ./wrk:/app snurtos/eos
+
+# Windows
+docker run -it -v .\wrk:/app snurtos/eos
 ```
 
 원하는 툴을 사용해서 wrk 디렉토리 내의 코드를 수정한 뒤
